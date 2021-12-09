@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="parameter(failed)">
+    <parameter name="password" value="12354"/>
+    <parameter name="username" value="manikandan123"/>
+    <classes>
+      <class name="org.demo.TestngDemo2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="mobile1"/>
+          <include name="afterMethod"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.demo.TestngDemo2 -->
+    </classes>
+  </test> <!-- parameter(failed) -->
+</suite> <!-- Failed suite [Suite] -->
